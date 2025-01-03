@@ -14,21 +14,21 @@ const Navbar = () => {
 <div className='nav'>
     <ul>
         <li>
-            <Link href={'/'}>Home</Link>
+            <Link href="/">Home</Link>
         </li>
 
         <li>
-            <Link href={'/Shop'}>Shop</Link>
-        </li>
-
-
-        <li>
-            <Link href={'/Contact'}>Contact</Link>
+            <Link  href="/Shop">Shop</Link>
         </li>
 
 
         <li>
-            <Link href={'/About'}>About</Link>
+            <Link href="/Contact">Contact</Link>
+        </li>
+
+
+        <li>
+            <Link  href="About">About</Link>
         </li>
 
 
@@ -44,3 +44,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
